@@ -90,7 +90,7 @@ const CreateItem= () => {
       <div className={styles.create_item_container}>
         <div className={styles.create_item_form}>
           <header className={styles.header}>
-            <h1>Create Product</h1>
+            <h1>Create Memory</h1>
             <button onClick={()=>setCreating(false)}>&#10006;</button>
           </header>
 

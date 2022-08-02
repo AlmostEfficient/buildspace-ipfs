@@ -45,7 +45,7 @@ const GatedAccess = ({ accessGranted, setAccessGranted, currentWalletNftsImages 
             {accessGranted ? (
                 <>
                     <button className="cta-button" onClick={() => setCreating(!creating)}>
-                        {creating ? "Back" : "Create Product"}
+                        {creating ? "Back" : "Create Meme"}
                     </button>
                     <button className="cta-button" onClick={() => setViewMemes(!viewMemes)}>
                         {viewMemes ? "Back" : "View Memes"}
